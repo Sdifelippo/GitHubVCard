@@ -1,0 +1,57 @@
+body{
+  margin:auto;
+  height: auto;
+}
+
+header {
+    background:    black;
+    position: relative;
+}
+
+header:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 30px;
+    background: linear-gradient(-45deg, transparent 75%, black 75%) 0 50%, linear-gradient(45deg, transparent 75%, black 75%) 0 50%;
+    background-size: 30px 30px;
+}
+
+
+h1 {
+      font-size: 3rem;
+  font-weight: lighter;
+    font-family: courier new;
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  padding: 1em;
+}
+
+span{
+  color: #75a5a4;
+}
+img {
+  border-radius: 50%;
+  width: 110px;
+  height: 110px;
+}
+
+.wrapper {
+  margin: 100px;
+  display: flex;
+    justify-content: space-around;
+}
+p {
+  display: flex;
+    justify-content: space-around;
+}
+
+li{
+  list-style: none;
+}
+
+.story {
+
+}
