@@ -23,7 +23,7 @@ req.addEventListener("load", function() {
      <li><span>Website: </span><a href="${obj.blog}">MyAwesomeWebsite.com</a></li>
      `
   story.innerHTML += `
-     <h2>The Story:</h2> <a> ${obj.bio} </a>
+     <h2>The Story</h2> <a> ${obj.bio} </a>
 
      `
    picture.innerHTML += `
